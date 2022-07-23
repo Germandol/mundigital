@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+
+
+*{
+    padding: 0%;
+    margin:0%
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.gridLayout {
+display: grid;
+
+
+}
+header{
+    display: flex;
+    background-color: #c081ef;
+    color: aliceblue;
+    height: 25vh;
+    width: 100%;
+    
+}
+.logo {
+    text-decoration: none;
+    
+    width: 20vh; 
+}
+.contenedorFlex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+
+    display: flex;
+}
+.menu li {
+
+    list-style: none;
+    padding: 0 6px;
+    
+}
+.menu li a {
+    color: #304295;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+}
+.barra{
+    background-color: #304295;
+    height: 7px;
+    width: 100%;
+}
+footer{
+    background-color: #c081ef;
+}
+h1 {
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2{
+
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size:  30px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+p{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center, justify;
+    line-height: 1.5;
+    word-spacing: 0.5px;
+    margin: 20px 20px 40px 20px;
+    
+}
+.newsletterFooter {
+    font-size: 20px;
+    color: #141620;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px 10px 10px 10px; 
+
+}
+
+
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.criptos {
+    border: 2px solid #304295;
+    margin: 1%;
+}
+.NFT {
+    border: 2px solid #304295;
+    margin: 1%;
+
+}
+.noticias {
+    border: 2px solid #304295;
+    margin: 1%;
+
+}
+.contactos {
+    border: 2px solid #304295;
+    margin: 1%;
+
+}
+.contenedorNFT {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px ;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+
+@media screen and (max-width: 650px) {
+    .contenedorGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px 200px;
+    }
+    .contenedorNFT {
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 500px;
+    }
+
+}
+
+
