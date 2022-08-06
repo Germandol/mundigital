@@ -121,8 +121,10 @@ p{
     
 }
 .newsletterFooter {
+    background-color: #304295;
+    border-color: #304295;
     font-size: 20px;
-    color: #141620;
+    color: #efeff3;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -165,6 +167,29 @@ p{
     grid-template-rows: 500px ;
     margin: 20px;
     padding: 10px;
+    
+}
+.btc {
+    height: 400px;
+}
+.nftcar {
+
+    height: 400px;
+}
+.carousel {
+
+    margin:30px 70px 30px 70px;
+    height: 400px;
+}
+.carousel-caption {
+
+    font-size: large;
+}
+
+.carousel-caption p {
+
+    font-weight: bolder;
+    font-size: 15px;
     
 }
 
