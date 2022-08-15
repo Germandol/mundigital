@@ -1,1 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.gridLayout {
+  display: grid;
+}
+.gridLayout header {
+  display: flex;
+  background-color: #c081ef;
+  color: aliceblue;
+  height: 25vh;
+  width: 100%;
+}
+.gridLayout header .contenedorFlex {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.gridLayout header .contenedorFlex .menu {
+  display: flex;
+}
+.gridLayout header .contenedorFlex .menu li {
+  list-style: none;
+  padding: 0 6px;
+}
+.gridLayout header .contenedorFlex .menu li a {
+  color: #304295;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+}
+
+.logo {
+  text-decoration: none;
+  width: 20vh;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transition: 5seg;
+}
+
+.barra {
+  background-color: #304295;
+  height: 7px;
+  width: 100%;
+}
+
+footer {
+  background: rgb(192, 129, 239);
+  background: linear-gradient(79deg, rgb(192, 129, 239) 64%, rgb(48, 66, 149) 99%);
+}
+
+h1 {
+  color: #1c2447;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  /*margin-top: 20px;*/
+  margin: 20px 30px 20px 30px;
+}
+h1:hover {
+  transform: scale(1);
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.95);
+  }
+}
+h2 {
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center, justify;
+  line-height: 1.5;
+  word-spacing: 0.5px;
+  margin: 20px 20px 40px 20px;
+}
+
+.newsletterFooter {
+  background-color: #304295;
+  border-color: #304295;
+  font-size: 20px;
+  color: #efeff3;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.contenedorGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.criptos {
+  border: 2px solid #304295;
+  margin: 1%;
+}
+
+.NFT {
+  border: 2px solid #304295;
+  margin: 1%;
+}
+
+.noticias {
+  border: 2px solid #304295;
+  margin: 1%;
+}
+
+.contactos {
+  border: 2px solid #304295;
+  margin: 1%;
+}
+
+.contenedorNFT {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.btc {
+  height: 600px;
+}
+
+.nftcar {
+  height: 600px;
+}
+
+.carousel {
+  margin: 30px 100px 30px 100px;
+  height: 600px;
+}
+
+.carousel-caption {
+  font-size: large;
+}
+
+.carousel-caption p {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .contenedorGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+  }
+  .contenedorNFT {
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 500px;
+  }
+  .contenedorFlex {
+    flex-direction: column;
+  }
+  .btc {
+    height: 200px;
+  }
+  .nftcar {
+    height: 200px;
+  }
+  .carousel {
+    margin: 30px 30px 30px 30px;
+    height: 200px;
+  }
+  .carousel-caption p {
+    font-weight: bolder;
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .newsletterFooter {
+    font-size: 15px;
+  }
+  .imagenNFT {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+.carousel {
+    display: none;
+}   
+}
 /*# sourceMappingURL=estilos.css.map */
