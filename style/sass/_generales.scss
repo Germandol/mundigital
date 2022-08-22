@@ -1,3 +1,4 @@
+
 * {
     padding: 0%;
     margin: 0%;
@@ -12,8 +13,7 @@ body {
         display: flex;
         background-color: #c081ef;
         color: aliceblue;
-        height: 25vh;
-        width: 100%;
+        @include sizes (100% ,25vh) ;
 
         .contenedorFlex {
             display: flex;
@@ -55,4 +55,10 @@ body {
     background-color: #304295;
     height: 7px;
     width: 100%;
+}
+
+.social {
+    display: flex;
+    align-items: center;   
+    width: 50%; 
 }

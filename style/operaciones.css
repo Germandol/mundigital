@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*aplicación de maps*/
+.btn--twitter {
+  background-color: cyan;
+}
+
+.btn--facebook {
+  background-color: blue;
+}
+
+.btn--instagram {
+  background-color: crimson;
+}
+
+/*aplicación de extend*/
+.cards {
+  border: 2px solid #304295;
+  margin: 1%;
+}
+
+/*aplicación de mixin*//*# sourceMappingURL=operaciones.css.map */

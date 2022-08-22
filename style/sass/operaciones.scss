@@ -1,0 +1,27 @@
+
+/*aplicación de maps*/
+$redes: (
+
+twitter: cyan,
+facebook: blue,
+instagram: crimson,
+
+) ;
+
+@each $red, $color in $redes { 
+    .btn--#{$red} {
+        background-color: $color;
+    }
+}
+/*aplicación de extend*/
+.cards {
+    border: 2px solid #304295;
+    margin: 1%;
+}
+
+/*aplicación de mixin*/
+
+@mixin sizes ($width,$height) {
+    height:$height ;
+    width:$width ;
+}
