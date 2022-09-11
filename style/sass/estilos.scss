@@ -14,7 +14,7 @@ h1 {
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     /*margin-top: 20px;*/
     margin: 20px 30px 20px 30px;
@@ -135,6 +135,24 @@ p{
     
 }
 
+.contenedorNoti {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px; 
+        .imagenNoti{          
+            width: 1fr ;
+            margin: 20px 20px 20px 20px;
+            justify-content: center;
+        }
+        h1{
+            font-size: 40px;
+        }
+}
+
+
 footer{
     background:  rgb(192,129,239);
     background: linear-gradient(79deg, rgba(192,129,239,1) 64%, rgba(48,66,149,1) 99%);
@@ -152,6 +170,13 @@ footer{
     .contenedorFlex{
         flex-direction: column;
     }
+    .contenedorNoti {
+        h1{
+            font-size: 25px;
+        }
+
+    }
+
     .carousel {
     
         margin:30px 30px 30px 30px;
@@ -178,12 +203,4 @@ footer{
     }
 
 
-}
-@media screen and (max-width: 480px) {
-    .carousel {
-        display: none;       
-}
-.imagenNFT {
-    display: none;
-}
 }
